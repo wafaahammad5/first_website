@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: 'Space Grotesk';
+    padding: 0px 100px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    background-color: #B9FF66;
+}
+
+.btn {
+    border: 1px solid #000;
+
+    border-radius: 14px;
+    padding: 20px 35px;
+
+}
+
+.Request {
+    background-color: #fff;
+
+}
+
+ul {
+    display: flex;
+
+    gap: 2.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Header {
+    display: flex;
+    gap: 6.25em;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+h1 {
+    font-size: 3.75em;
+    font-weight: 500;
+}
+
+.Navigating-p {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.75em;
+    width: 31.125em;
+}
+
+.Right header {
+    width: 33.1875em;
+}
+
+.Book {
+    color: #fff;
+    background-color: #000;
+
+}
+
+.Icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Services {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.Services-p {
+    font-size: 18px;
+    width: 580px;
+}
+
+.Container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 45px;
+    padding: 50px;
+    flex-grow: 1;
+    box-shadow: 0px 5px 0px black;
+
+}
+
+.Right-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Left-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+.heading {
+    display: flex;
+    gap: 40px;
+    margin-top: 140px;
+}
+
+.Container {}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    width: 221px;
+}
+
+.green {
+    background-color: #B9FF66;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.light {
+    background-color: #F3F3F3;
+}
+
+.dark {
+    background-color: #191A23;
+}
+
+.highlight {
+    background-color: #B9FF66;
+}
+
+.white-a {
+    color: #fff;
+}
+
+.fa-solid {
+    padding: 3px;
+}
+
+.Stars {
+
+    display: flex;
+    gap: 186px;
+    margin-top: 100px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+}
+
+.Right-stars {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 26px;
+}
+
+.Right-stars h3 {
+
+    width: 500px;
+}
+
+.Right-stars p {
+    width: 450px;
+
+}
+
+.proposal {
+    width: 218px;
+    color: #fff;
+    background-color: #000
+}
+
+.case {
+    display: flex;
+    background-color: #191A23;
+    border-radius: 45px;
+}
+
+.case p {
+    color: #fff;
+}
+
+.case a {
+    color: #B9FF66;
+}
+
+.case-a {
+    color: #B9FF66;
+}
+
+.content {
+    padding: 60px;
+}
+
+.border {
+    border-left: 1px solid #fff;
+    padding-left: 64px;
+}
+
+.case-aa {
+    margin-left: 64px;
+}
+
+.Case-Studies {
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.first {
+    padding-left: 64px;
+}
+footer{
+    border-radius: 45px;
+    background-color: #191A23;
+    margin-top: 100px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between; 
+}
+footer li {
+    color: #fff; 
+}
+footer a{
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 17px;
+}
+.socialIcons {
+    color:#000;
+}
+.fa-brands {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h4{
+    color: #000;
+    background-color: #B9FF66;
+    display: inline;
+    border-radius: 7px;
+    padding: 7px;
+}
+footer p{
+    color: #F3F3F3;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 60px;
+    border-bottom: 1px solid #fff;
+}
+.right-footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+    padding: 58px 40px;
+    background-color: #292A32;
+}
+.email{
+    color: #fff;
+    padding: 22px 35px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    background-color: #292A32;
+}
+.subscribe{
+    background-color: #B9FF66;
+    padding: 22px 35px;
+}
+.copy{
+    display: flex;
+    gap: 40px;
+    margin: 60px;
+}
