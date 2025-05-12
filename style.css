@@ -3,6 +3,7 @@
 body {
     font-family: 'Space Grotesk';
     padding: 0px 100px;
+    /* padding: 10px; */
 }
 
 nav {
@@ -45,6 +46,7 @@ a {
 
 .Header {
     display: flex;
+    flex-wrap: wrap;
     gap: 6.25em;
     justify-content: space-between;
     padding-top: 70px;
@@ -79,6 +81,7 @@ h1 {
 
 .Services {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 80px;
 }
@@ -89,8 +92,8 @@ h1 {
 }
 
 .Container {
-
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 40px;
 }
@@ -101,21 +104,7 @@ h1 {
     border: 1px solid #000;
     border-radius: 45px;
     padding: 50px;
-    flex-grow: 1;
     box-shadow: 0px 5px 0px black;
-
-}
-
-.Right-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.Left-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
 }
 
 .left {
@@ -133,8 +122,6 @@ h1 {
     gap: 40px;
     margin-top: 140px;
 }
-
-.Container {}
 
 h3 {
     font-weight: 500;
@@ -174,6 +161,7 @@ h3 {
 .Stars {
 
     display: flex;
+    flex-wrap: wrap;
     gap: 186px;
     margin-top: 100px;
     background-color: #F3F3F3;
@@ -244,50 +232,60 @@ h3 {
 .first {
     padding-left: 64px;
 }
-footer{
-    border-radius: 45px;
+
+footer {
+    border-radius: 45px 45px 0px 0px;
     background-color: #191A23;
     margin-top: 100px;
 }
-.footer-nav{
+
+.footer-nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
+
 footer li {
-    color: #fff; 
+    color: #fff;
 }
-footer a{
+
+footer a {
     color: #fff;
     text-decoration: underline;
     margin-top: 17px;
 }
+
 .socialIcons {
-    color:#000;
+    color: #000;
 }
+
 .fa-brands {
     margin: 20px;
     font-size: 1.5em;
 }
 
-h4{
+h4 {
     color: #000;
     background-color: #B9FF66;
     display: inline;
     border-radius: 7px;
     padding: 7px;
 }
-footer p{
+
+footer p {
     color: #F3F3F3;
 }
-.footer{
+
+.footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px;
     margin: 60px;
     border-bottom: 1px solid #fff;
 }
-.right-footer{
-    
+
+.right-footer {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,19 +294,53 @@ footer p{
     padding: 58px 40px;
     background-color: #292A32;
 }
-.email{
+
+.email {
     color: #fff;
     padding: 22px 35px;
     border: 1px solid #fff;
     border-radius: 14px;
     background-color: #292A32;
 }
-.subscribe{
+
+.subscribe {
     background-color: #B9FF66;
     padding: 22px 35px;
 }
-.copy{
+
+.copy {
     display: flex;
     gap: 40px;
     margin: 60px;
+}
+
+@media (max-width: 576px) {
+    .Container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .heading {
+        width: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading h2 {
+        width: fit-content;
+    }
+
+    h2 {
+        width: 161px;
+    }
+
+    .Services-p {
+        width: 390px;
+    }
+
+}
+
+@media (min-width:576px) {
+    .Services {}
 }
